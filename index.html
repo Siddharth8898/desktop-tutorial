@@ -1,11 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Team Dashboard</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background: #1e293b;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .card {
+            background: #1e293b;
+            margin: 15px auto;
+            padding: 20px;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #38bdf8;
+            color: black;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0ea5e9;
+        }
+    </style>
 </head>
+
 <body>
-    <p>Jai Shri Ram<p>
+
+<header>
+    🚀 Team Dashboard
+</header>
+
+<div class="container">
+
+    <h2>Welcome Team 👋</h2>
+    <p>This page is hosted using GitHub Pages</p>
+
+    <div class="card">
+        <h3>Siddharth</h3>
+        <p>Role: Developer</p>
+    </div>
+
+    <div class="card">
+        <h3>Member 2</h3>
+        <p>Role: Designer</p>
+    </div>
+
+    <br>
+
+    <button onclick="showMessage()">Click Me</button>
+
+</div>
+
+<script>
+function showMessage() {
+    alert("Welcome to our project 🚀");
+}
+</script>
+
 </body>
 </html>
